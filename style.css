@@ -1,9 +1,17 @@
+
 .hat {
 	background: #ffffff;
-	display: block;
 	top: 0;
 	left: 0;
 	right: 0;
+	height: 50px;
+	position: absolute;
+}
+.foot {
+	background: #ffffff;
+	bottom: 0;
+	right: 0;
+	left: 0;
 	height: 50px;
 	position: absolute;
 }
