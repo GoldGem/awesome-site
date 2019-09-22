@@ -1,25 +1,24 @@
-p {
-   font-family: arial, helvetica, sans-serif; 
+.hat {
+	background: #ffffff;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	position: absolute;
 }
-h2 {
-   font-size: 20pt; 
-   color: red; 
-   background: white; 
+.a {
+	color: #000000;
+
 }
-.note {
-   color: red; 
-   background-color: yellow; 
-   font-weight: bold; 
+.b {
+	color: #ffffff;
+	text-align: center;
 }
-p#paragraph1 {
-   padding-left: 10px;
-}
-a:hover {
-   text-decoration: none;
-}
-#news p {
-   color: blue;
-}
-[type="button"] {
-   background-color: green;
+.mid {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+
 }
