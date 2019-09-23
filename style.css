@@ -13,34 +13,103 @@
     font-family: 'NBC Futura';
     src: local('NBC Futura Medium'), 
          url('fonts/nbc_futura_medium.ttf') format('truetype');
+
 }
 .button-container{
 	position: relative;
 	right: 100px;
 }
+.button-discover2 {
+	position: relative;
+}
 
 .knopka {
+  color: #989fb1; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+   /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+  display: inline-block;
+  margin: 30px 0px;
+  padding: 10px 30px;/* отступ от текста */
+  overflow: hidden;
+  text-align: center;
+  transition: .2s;
+  font-family: NBC Futura;
+  letter-spacing: 2px;
+  
+ 
+  font-size: 16px;
+
+} 
+.knopka:active{
+
+	color: #e36999;
+	transform: translateY(-7px);
+}
+.knopka-join {
   color: #e36999; /* цвет текста */
   text-decoration: none; /* убирать подчёркивание у ссылок */
   user-select: none; /* убирать выделение текста */
   background: #ffffff; /* фон кнопки */
-  /*padding: .7em 1.5em; /* отступ от текста */
   outline: none; /* убирать контур в Mozilla */
   display: inline-block;
   margin: 30px 20px;
-  padding: 15px 30px;
+  padding: 0px 30px;/* отступ от текста */
   overflow: hidden;
   text-align: center;
   box-shadow: 0 8px 15px rgba(0,0,0,.1);
-  transition: .3s;
+  transition: .2s;
   font-family: NBC Futura;
   letter-spacing: 2px;
-  font-weight: lighter; 
+ 
   font-size: 18px;
 
+  line-height: 45px;
+  border-radius: 45px;
+
 } 
-.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
-.knopka:active { background: rgb(152,15,0);}
+.knopka-join:hover { 
+	background: #e36999;
+  	color: #fff;
+
+} /* при наведении курсора мышки */
+
+.knopka-join:active {
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	transform: translateY(-7px);
+}
+
+.knopka-discover {
+	color: #5541a2; /* цвет текста */
+  	text-decoration: none; /* убирать подчёркивание у ссылок */
+  	user-select: none; /* убирать выделение текста */
+  	background: #ffffff; /* фон кнопки */
+  	outline: none; /* убирать контур в Mozilla */
+  	display: inline-block;
+  	margin: 40px 0px;
+  	padding: 5px 50px;/* отступ от текста */
+  	overflow: hidden;
+  	text-align: center;
+  	box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  	transition: .2s;
+  	font-family: NBC Futura;
+  	letter-spacing: 0px;
+ 
+ 	font-size: 20px;
+
+  	line-height: 45px;
+  	border-radius: 45px;
+}
+.knopka-discover:hover {
+	background: #5541a2;
+  	color: #fff;
+}
+
+.knopka-discover:active {
+	box-shadow: 0 15px 20px rgba(0,0,0,.2);
+	transform: translateY(-7px);
+}
 
 .hat {
 	background-image: url(images/bg1.jpg);
@@ -64,13 +133,15 @@
 	position: relative;
 }
 .a {
-	color: #ffffff;
+	color: #989fb1;
 	font-family: NBC Futura;
-	font-weight: lighter;
-	font-size: 18px;
-	letter-spacing: 2px;
+	font-weight: 100;
+	font-size: 20px;
+	letter-spacing: 1px;
+
 }
-.b {
+
+h1 {
 	color: #1e2739;
 	text-align: center;
 	font-family: NBC Futura;
@@ -78,26 +149,26 @@
 	top: 10px;
 	position: relative;
 	font-size: 75px;
+	margin-bottom: 30px;
+}
+.b {
+	color: #989fb1;
+	font-family: NBC Futura;
+	font-weight: 100;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height:20px;
+	margin: 0px 100px 0px 100px;
 
 }
+
+
 .mid {
 	position: relative;
 
-	width: 70%;
+	max-width: 1600px;
 	margin: auto;
 	height: 3421px;
 
-
-}
-.toping { 
-	background: url(images/bg1.jpg);
-	position: relative;
-	top: 0px;
-	height: 1063px;
-	width: 1600px;
-	margin: auto;
-	border: 0;
-	padding: 0;
-	
 
 }
