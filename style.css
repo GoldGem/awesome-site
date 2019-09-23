@@ -1,4 +1,3 @@
-
 .viewport {
 	position: absolute;
     width: 100%;
@@ -7,31 +6,54 @@
     right: 0;
     min-height: 100%;
     background-color: #0f1344;
+
+
 }
 @font-face {
     font-family: 'NBC Futura';
     src: local('NBC Futura Medium'), 
          url('fonts/nbc_futura_medium.ttf') format('truetype');
 }
-a.knopka {
-  color: #fff; /* цвет текста */
+.button-container{
+	position: relative;
+	right: 100px;
+}
+
+.knopka {
+  color: #e36999; /* цвет текста */
   text-decoration: none; /* убирать подчёркивание у ссылок */
   user-select: none; /* убирать выделение текста */
-  background: rgb(212,75,56); /* фон кнопки */
-  padding: .7em 1.5em; /* отступ от текста */
+  background: #ffffff; /* фон кнопки */
+  /*padding: .7em 1.5em; /* отступ от текста */
   outline: none; /* убирать контур в Mozilla */
+  display: inline-block;
+  margin: 30px 20px;
+  padding: 15px 30px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .3s;
+  font-family: NBC Futura;
+  letter-spacing: 2px;
+  font-weight: lighter; 
+  font-size: 18px;
 
 } 
-a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
-a.knopka:active { background: rgb(152,15,0);}
+.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+.knopka:active { background: rgb(152,15,0);}
 
 .hat {
-	background: #808080;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 50px;
-	position: absolute;
+	background-image: url(images/bg1.jpg);
+	position: relative;
+	top: 0px;
+	min-height: 1063px;
+	max-width: 1600px;
+	margin: auto;
+	background-position: center center; 
+	background-repeat: no-repeat;
+	
+	background-size: cover; 
+	background-color: #0f1344;
 }
 .foot {
 	background: #808080;
@@ -39,26 +61,43 @@ a.knopka:active { background: rgb(152,15,0);}
 	right: 0;
 	left: 0;
 	height: 50px;
-	position: absolute;
+	position: relative;
 }
 .a {
 	color: #ffffff;
 	font-family: NBC Futura;
 	font-weight: lighter;
 	font-size: 18px;
+	letter-spacing: 2px;
 }
 .b {
-	color: #ffffff;
+	color: #1e2739;
 	text-align: center;
 	font-family: NBC Futura;
+	font-weight: lighter;
+	top: 10px;
+	position: relative;
+	font-size: 75px;
 
 }
 .mid {
 	position: relative;
-	top: 50px;
-	bottom: 50px;
+
 	width: 70%;
 	margin: auto;
+	height: 3421px;
 
+
+}
+.toping { 
+	background: url(images/bg1.jpg);
+	position: relative;
+	top: 0px;
+	height: 1063px;
+	width: 1600px;
+	margin: auto;
+	border: 0;
+	padding: 0;
+	
 
 }
