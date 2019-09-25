@@ -117,7 +117,7 @@
   	background: #e36999; /* фон кнопки */
   	outline: none; /* убирать контур в Mozilla */
   	display: inline-block;
-  	margin: 30px -20px;
+  	margin: 370px -50px;
   	padding: 0px 0px;/* отступ от текста */
   	overflow: hidden;
   	text-align: center;
@@ -241,9 +241,13 @@ h1 {
 }
 #image-video {
 	display: inline-block;
-	position: absolute;
+	position: relative;
 }
-
+#stock_land {
+	margin-right: -600px;
+  margin-top: 50px;
+  float: right;
+}
 #mid {
 	position: relative;
 
