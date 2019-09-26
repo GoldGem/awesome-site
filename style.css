@@ -128,9 +128,29 @@
   	width: 100px;
   	height: 100px;
   	z-index: 999999;
+    float: right;
 
 }
-
+.knopka-more {
+  color: #e36999; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #ffffff; /* фон кнопки */
+  outline: none; /* убирать контур в Mozilla */
+  display: inline-block;
+  padding: 0px 30px;/* отступ от текста */
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .2s;
+  font-family: NBC Futura;
+  letter-spacing: 2px;
+  
+  font-size: 18px;
+  margin: 370px -50px;
+  line-height: 45px;
+  border-radius: 45px;
+}
 .hat {
 	background-image: url(images/bg1.jpg);
 	position: relative;
@@ -244,8 +264,7 @@ h1 {
 	position: relative;
 }
 #stock_land {
-	margin-right: -600px;
-  margin-top: 50px;
+	margin-right: -500px;
   float: right;
 }
 #mid {
