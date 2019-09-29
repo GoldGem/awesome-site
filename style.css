@@ -122,37 +122,60 @@
   	overflow: hidden;
   	text-align: center;
   	box-shadow: 0 8px 15px rgba(0,0,0,.1);
-  	transition: .2s;
+  	transition: .2s ease;
   	line-height: 50px;
   	border-radius: 50px;
   	width: 100px;
   	height: 100px;
-  	z-index: 999999;
     position: absolute;
     bottom: 34px;
 
  
 
 }
+#knopka-play > img {
+  transition: .2s ease;
+}
+#knopka-play:hover {
+  background:#00a0ce;
+  width: 110px;
+  height: 110px;
+  border-radius: 55px;
+
+}
+#knopka-play:hover > img{
+  width: 110px;
+  height: 110px;
+
+}
 .knopka-more {
-  color: #e36999; /* цвет текста */
+  color: #ffffff; /* цвет текста */
   text-decoration: none; /* убирать подчёркивание у ссылок */
   user-select: none; /* убирать выделение текста */
-  background: #fffff0; /* фон кнопки */
+  background: #0f1344; /* фон кнопки */
   outline: none; /* убирать контур в Mozilla */
   display: inline-block;
-  padding: 0px 30px;/* отступ от текста */
+  padding: 5px 30px;/* отступ от текста */
   overflow: hidden;
   text-align: center;
   box-shadow: 0 8px 15px rgba(0,0,0,.1);
   transition: .2s;
   font-family: NBC Futura;
   letter-spacing: 2px;
-  
-  font-size: 18px;
+  border: 2px solid #e36999;
+  font-size: 16px;
   /*margin: 370px 150px;*/
   line-height: 45px;
   border-radius: 45px;
+}
+/*.knopka-more:hover {
+    background: #5541a2;
+    color: #fff;
+}*/
+
+.knopka-more:active {
+  box-shadow: 0 15px 20px rgba(0,0,0,.2);
+  transform: translateY(-7px);
 }
 .hat {
 	background-image: url(images/bg1.jpg);
@@ -214,7 +237,7 @@
         display: inline-block;
         color: #FFFFFF;
         text-decoration: none;
-        background: #606061;
+        background: #e36999;
         cursor:pointer;
         width: 24px;
         height: 22px;
@@ -223,9 +246,10 @@
         right: 5px;
         border-radius: 12px;
         box-shadow: 1px 1px 3px #000;
+        text-align: center;
       }
 
-.close:hover {background: #00d9ff;}
+.close:hover {background: #ff7b89;}
 
 .foot {
 	background: #808080;
@@ -262,16 +286,19 @@ h2 {
   font-weight: lighter;
 
   position: relative;
-  font-size: 30px;
+  font-size: 45px;
+  margin-bottom: 55px;
+  margin-top: 90px;
 }
 .b {
 	color: #989fb1;
 	font-family: NBC Futura;
 	font-weight: 100;
-	font-size: 16px;
+	font-size: 17px;
 	letter-spacing: 1px;
-	line-height:20px;
+	line-height:30px;
 	/*margin: 0px 100px 0px 100px;*/
+  margin-bottom: 50px;
 
 }
 .more {
