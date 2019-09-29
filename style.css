@@ -117,7 +117,7 @@
   	background: #e36999; /* фон кнопки */
   	outline: none; /* убирать контур в Mozilla */
   	display: inline-block;
-  	margin: 370px -50px;
+  	/*margin: 370px -50px;*/
   	padding: 0px 0px;/* отступ от текста */
   	overflow: hidden;
   	text-align: center;
@@ -128,7 +128,7 @@
   	width: 100px;
   	height: 100px;
   	z-index: 999999;
-    float: right;
+ 
 
 }
 .knopka-more {
@@ -147,7 +147,7 @@
   letter-spacing: 2px;
   
   font-size: 18px;
-  margin: 370px -50px;
+  /*margin: 370px 150px;*/
   line-height: 45px;
   border-radius: 45px;
 }
@@ -173,8 +173,11 @@
 }
 #video {
 	position: relative;
-	height: 582px;
+	/*height: 582px;*/
 	background: #0f1343;
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
 }
 .oknoDialog {
         background: rgba(0, 0, 0, 0.5);
@@ -249,6 +252,15 @@ h1 {
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
+h2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: NBC Futura;
+  font-weight: lighter;
+
+  position: relative;
+  font-size: 30px;
+}
 .b {
 	color: #989fb1;
 	font-family: NBC Futura;
@@ -259,13 +271,15 @@ h1 {
 	margin: 0px 100px 0px 100px;
 
 }
+.more {
+  
+}
 #image-video {
-	display: inline-block;
+	
 	position: relative;
 }
 #stock_land {
-	margin-right: -500px;
-  float: right;
+	/*margin-right: -500px;*/
 }
 #mid {
 	position: relative;
