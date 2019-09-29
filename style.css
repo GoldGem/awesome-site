@@ -138,7 +138,7 @@
   color: #e36999; /* цвет текста */
   text-decoration: none; /* убирать подчёркивание у ссылок */
   user-select: none; /* убирать выделение текста */
-  background: #ffffff; /* фон кнопки */
+  background: #fffff0; /* фон кнопки */
   outline: none; /* убирать контур в Mozilla */
   display: inline-block;
   padding: 0px 30px;/* отступ от текста */
