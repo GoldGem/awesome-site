@@ -128,6 +128,9 @@
   	width: 100px;
   	height: 100px;
   	z-index: 999999;
+    position: absolute;
+    bottom: 34px;
+
  
 
 }
@@ -254,7 +257,7 @@ h1 {
 }
 h2 {
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   font-family: NBC Futura;
   font-weight: lighter;
 
@@ -268,18 +271,23 @@ h2 {
 	font-size: 16px;
 	letter-spacing: 1px;
 	line-height:20px;
-	margin: 0px 100px 0px 100px;
+	/*margin: 0px 100px 0px 100px;*/
 
 }
 .more {
-  
+  flex-basis: 720px;
+  margin-left: 200px;
+  margin-right: 43px;
 }
 #image-video {
 	
-	position: relative;
+	
+
 }
 #stock_land {
 	/*margin-right: -500px;*/
+  margin-left: 50px;
+  margin-right: 200px;
 }
 #mid {
 	position: relative;
