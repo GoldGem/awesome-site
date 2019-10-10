@@ -265,10 +265,13 @@
   background-image: url(images/foot1.png);
 
 }
-.foot > p {
+.foot > div {
   text-align: right;
   color: #fff;
   margin: auto;
+  bottom: 0;
+  right: 15px;
+  position: absolute;
 }
 .a {
 	color: #989fb1;
@@ -330,8 +333,8 @@ h2 {
 }
 .more {
   flex-basis: 720px;
-  margin-left: 200px;
-  margin-right: 43px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 #image-video {
 	
@@ -341,7 +344,7 @@ h2 {
 #stock_land {
 	/*margin-right: -500px;*/
   margin-left: 50px;
-  margin-right: 200px;
+  margin-right: 100px;
 }
 #mid {
 	position: relative;
