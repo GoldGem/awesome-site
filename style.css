@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
     min-height: 100%;
-    background-color: #0f1343;
+    background-color: #050b42;
     overflow: hidden;
 
 
@@ -191,7 +191,6 @@
 	background-repeat: no-repeat;
 	
 	background-size: cover; 
-	background-color: #0f1344;
 }
 #blank {
 	position: relative;
@@ -255,12 +254,21 @@
 .close:hover {background: #ff7b89;}
 
 .foot {
-	background: #808080;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	height: 50px;
+	bottom: 0px;
+  min-height: 531px;
+  max-width: 1600px;
+  margin: auto;
+  background-position: center center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
 	position: relative;
+  background-image: url(images/foot1.png);
+
+}
+.foot > p {
+  text-align: right;
+  color: #fff;
+  margin: auto;
 }
 .a {
 	color: #989fb1;
@@ -337,7 +345,6 @@ h2 {
 }
 #mid {
 	position: relative;
-
 	max-width: 1600px;
 	margin: auto;
 	height: 3421px;
