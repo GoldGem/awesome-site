@@ -180,6 +180,37 @@
   box-shadow: 0 15px 20px rgba(0,0,0,.2);
   transform: translateY(-7px);
 }
+#button-joinus {
+  color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: #f85d9b; /* фон кнопки */
+    outline: none; /* убирать контур в Mozilla */
+    display: inline-block;
+    margin: 0px 0px;
+    padding: 7px 55px;/* отступ от текста */
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .2s;
+    font-weight: lighter;
+    font-family: NBC Futura;
+    letter-spacing: 2px;
+  margin-bottom: 100px;
+  font-size: 20px;
+
+    line-height: 50px;
+    border-radius: 45px;
+}
+#button-joinus:hover {
+  background: #fff;
+    color: #f85d9b;
+}
+
+#button-joinus:active {
+  box-shadow: 0 15px 20px rgba(0,0,0,.2);
+  transform: translateY(-7px);
+}
 .hat {
 	background-image: url(images/bg1.jpg);
 	position: relative;
@@ -320,6 +351,10 @@ h2 {
   text-align: center;
   margin-bottom: 45px;
 }
+#text-become{
+  text-align: center;
+  margin-bottom: 50px;
+}
 .b {
 	color: #989fb1;
 	font-family: NBC Futura;
@@ -353,6 +388,17 @@ h2 {
 	height: 3421px;
 
 
+}
+#joinus {
+  position: relative;
+  max-width: 1600px;
+  margin: auto;
+}
+#text-joinus{
+  position: relative;
+  margin: auto;
+  max-width: 580px;
+  text-align: center;
 }
 
 #stars {
