@@ -1,4 +1,4 @@
-# goldgem.github
+# goldgem's awesome-site
 my awesome site
 
 github: https://goldgem.github.io/awesome-site/
