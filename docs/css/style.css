@@ -15,7 +15,7 @@
 @font-face {
     font-family: 'NBC Futura';
     src: local('NBC Futura Medium'), 
-         url('fonts/nbc_futura_medium.ttf') format('truetype');
+         url('../fonts/nbc_futura_medium.ttf') format('truetype');
 
 }
 .button-container{
@@ -211,7 +211,7 @@
   transform: translateY(-7px);
 }
 .hat {
-	background-image: url(images/bg1.jpg);
+	background-image: url(../images/bg1.jpg);
 	position: relative;
 	top: 0px;
 	min-height: 1063px;
@@ -292,7 +292,7 @@
   background-repeat: no-repeat;
   background-size: cover; 
 	position: relative;
-  background-image: url(images/foot1.png);
+  background-image: url(../images/foot1.png);
 
 }
 .foot > div {
