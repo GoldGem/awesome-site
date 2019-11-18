@@ -9,11 +9,11 @@
 }
 #button-play{
 	right: 440px;
-	bottom: 155px;
+	bottom: 125px;
 }
 #button-play:hover {
 
-	bottom: 150px;
+	bottom: 120px;
 }
 .windowDialog > div {
 	width: 85%;
@@ -27,6 +27,11 @@
 }
 .text_center{
 	text-align: center;
+}
+.br_alt {
+    float: left;
+    width: 100%;
+    margin: 0 0 20px 0; /* отступ после строки 20 пикселей */
 }
 
 /*--------GALLERY FOR MOBILE---------*/
@@ -45,7 +50,7 @@
   
   /*overflow: hidden;*/
   overflow: hidden;
-  padding-left: 225px;
+  padding-left: 215px;
 }
 .br {
     float: none;
