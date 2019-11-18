@@ -251,6 +251,22 @@
 	
 	background-size: cover; 
 }
+.links > a {
+  margin: 0 20px;
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  outline: none; /* убирать контур в Mozilla */
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+}
+.links{
+  text-align: left;
+  margin: auto;
+  bottom: 180px;
+  left: 180px;
+  position: absolute;
+}
 #blank {
 	position: relative;
 	background: #161647;
@@ -328,12 +344,21 @@
 }
 .foot > div {
   text-align: right;
-  color: #fff;
   margin: auto;
-  bottom: 0;
-  right: 15px;
+  bottom: 50px;
+  right: 180px;
   position: absolute;
 }
+.foot > div > *{
+  margin: 0 20px;
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  outline: none; /* убирать контур в Mozilla */
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+}
+
 .a {
 	color: #989fb1;
 	font-family: NBC Futura;
@@ -460,6 +485,8 @@ h2 {
   max-width: 580px;
   text-align: center;
 }
+
+
 
 #stars {
   width: 1px;
