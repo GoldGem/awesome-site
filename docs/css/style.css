@@ -370,15 +370,18 @@ h2 {
   margin-left: 100px;
   margin-right: 100px;
 }
-#image-video {
+#image-video{
 	
 	
 
 }
+
 #stock_land {
 	/*margin-right: -500px;*/
   margin-left: 50px;
   margin-right: 100px;
+  width: 589px;
+  height: 451px;
 }
 #mid {
 	position: relative;

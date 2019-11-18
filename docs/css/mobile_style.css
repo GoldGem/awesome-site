@@ -1,0 +1,20 @@
+#stock_land{
+	
+	width: 490px;
+  	height: 375.8px;
+  	margin-left: 0px;
+  	margin-right: 0px;
+
+}
+#button-play{
+	right: 440px;
+	bottom: 190px;
+}
+#button-play:hover {
+
+	bottom: 185px;
+}
+iframe {
+	height: 500px;
+}
+
