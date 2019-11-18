@@ -1,3 +1,4 @@
+/*-------------VIDEO FOR MOBILE------------------*/
 #stock_land{
 	
 	width: 490px;
@@ -15,6 +16,7 @@
 	bottom: 150px;
 }
 .windowDialog > div {
+	width: 85%;
 	height: 500px;
 	margin-top: 500px;
 }
@@ -23,6 +25,30 @@
   margin-left: 50px;
   margin-right: 100px;
 }
-#text_from{
+.text_center{
 	text-align: center;
+}
+
+/*--------GALLERY FOR MOBILE---------*/
+
+#gallery_div{
+  display: flex;
+  position: relative;
+  max-width: 1600px;
+  margin: auto;
+  margin-bottom: 100px;
+  flex-direction: column;
+  /*overflow: hidden;*/
+
+}
+#img-gallery {
+  
+  /*overflow: hidden;*/
+  overflow: hidden;
+  padding-left: 225px;
+}
+.br {
+    float: none;
+    width: 0;
+    margin: 0; 
 }
