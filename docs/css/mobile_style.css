@@ -8,13 +8,21 @@
 }
 #button-play{
 	right: 440px;
-	bottom: 190px;
+	bottom: 155px;
 }
 #button-play:hover {
 
-	bottom: 185px;
+	bottom: 150px;
 }
-iframe {
+.windowDialog > div {
 	height: 500px;
+	margin-top: 500px;
 }
 
+.more {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+#text_from{
+	text-align: center;
+}

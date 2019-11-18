@@ -248,6 +248,7 @@
         z-index: 99999;
       	transition: opacity 400ms ease-in;
       	pointer-events: none;
+
 }
 
 
@@ -257,12 +258,13 @@
 }
 .windowDialog > div {
 	width: 75%;
-	height: 75%;
+	height: 700px;
 	position: relative;
 	margin: 5% auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 10px;
 	background: fff;
+  vertical-align: center;
 
 }
 .close {
