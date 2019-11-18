@@ -390,6 +390,15 @@ h2 {
   margin-bottom: 55px;
   margin-top: 90px;
 }
+h3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: NBC Futura;
+  font-weight: lighter;
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
 #way{
   position: relative;
   max-width: 1600px;
@@ -420,7 +429,21 @@ h2 {
 	/*margin: 0px 100px 0px 100px;*/
   margin-bottom: 50px;
 
+
 }
+.c {
+  color: #989fb1;
+  font-family: NBC Futura;
+  font-weight: 100;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height:30px;
+  text-align: left;
+  margin-bottom: 5px;
+  /*margin: 0px 100px 0px 100px;*/
+  margin-top: 40px;
+}
+
 .more {
   flex-basis: 720px;
   margin-left: 100px;
@@ -444,8 +467,42 @@ h2 {
 	max-width: 1600px;
 	margin: auto;
 	height: 900px;
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content: center;
   text-align: center;
 
+}
+#map{
+  
+}
+.column{
+  /*flex-basis: 29%;*/
+  width: 259.25px;
+  margin-top: 120px;
+  overflow: hidden;
+  /*max-width: 472.5px;*/
+  padding-left: 
+}
+
+#column1{
+  float: right;
+  margin-right: 80px;
+
+}
+#column2{
+  float: left;
+  margin-left: 80px;
+
+}
+#column2 p{
+  margin: 65px auto;
+  color: #fff;
+
+}
+#column2 p i{
+  color: #e36999;
+  font-size: 24px;
 
 }
 #gallery_div{

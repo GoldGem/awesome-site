@@ -57,3 +57,20 @@
     width: 0;
     margin: 0; 
 }
+
+/*---------------------*/
+#map iframe{
+	width: 545.8px;
+	height: 575px;
+}
+
+#column1{
+  float: right;
+  margin-right: 20px;
+
+}
+#column2{
+  float: left;
+  margin-left: 20px;
+
+}
