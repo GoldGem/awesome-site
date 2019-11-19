@@ -1,4 +1,6 @@
+
 /*-------------VIDEO FOR MOBILE------------------*/
+
 #stock_land{
 	
 	width: 490px;
@@ -58,7 +60,8 @@
     margin: 0; 
 }
 
-/*---------------------*/
+/*---------MAP FOR MOBILE------------*/
+
 #map iframe{
 	width: 545.8px;
 	height: 575px;
